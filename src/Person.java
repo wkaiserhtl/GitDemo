@@ -6,4 +6,12 @@ public class Person {
         this.name = name;
         this.firstnmae = firstnmae;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", firstnmae='" + firstnmae + '\'' +
+                '}';
+    }
 }
